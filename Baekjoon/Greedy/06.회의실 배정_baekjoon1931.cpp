@@ -10,7 +10,7 @@ bool compare(pair<int, int> a, pair<int,int> b){
 }
 
 int main(){
-	int n, a, b, endTime, count = 1, beforeIndex = 0;
+	int n, a, b, endTime, count = 1;
     vector<pair<int, int> > v;
 	
 	scanf("%d", &n);
