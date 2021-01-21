@@ -7,7 +7,6 @@ using namespace std;
 string s = "",result = "";
 stack<pair<char, int> > st;
 
-//후위 표기 수식으로 바꾸기 위해 연산자를 스택에 넣고 연산자 우선순위 비교
 void pushStack(char c, int i){
     if(!st.empty()){
         int a = s.find(c), b;
@@ -24,7 +23,6 @@ void pushStack(char c, int i){
     st.push(make_pair(c,i));
 }
 
-//바뀐 후위 수식을 계산하기
 long long calculate(){
     string num = "";
     stack<long long> cal;
@@ -59,9 +57,7 @@ long long solution(string expression) {
     
     sort(s.begin(), s.end());
     
-    //연산자 우선순위 경우의 수를 따지기 위해서 순열함수를 사용
     do{
-        //중위 수식 표기를 후위 수식 표기르 바꾼다.
         result = "";
         for(int i=0; i<expression.size(); i++){
             char c = expression[i];
@@ -77,7 +73,6 @@ long long solution(string expression) {
             st.pop();
         }
         
-        //바뀐 후위 수식을 계산하여 최댓값이라면 저장
         answer = max(answer, calculate());    
     } while(next_permutation(s.begin(), s.end()));
     return answer;
