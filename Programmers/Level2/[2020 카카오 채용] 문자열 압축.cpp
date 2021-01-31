@@ -1,42 +1,34 @@
 #include <string>
-#include <vector>
 
 using namespace std;
 
 int solution(string s) {
-    int answer = s.length(), count = 1, n = s.length()/2;
-    string a="", b="", result = "";
-    vector<string> v;
+    int answer = s.length(), j=0, count=1;
+    string str="", prev = "", temp = "";
     
-    for(int i=1; i<=n; i++){
-        int j=0;
+    for(int i=1; i<=s.size()/2; i++){
+        str = "";
         count = 1;
-        result = "";
-        while(i+j<s.length()){
-            a = s.substr(j,i);
-            b = s.substr(j+i,i);
-            if(a == b){ 
+        j = 0;
+        
+        while(i+j<s.size()){
+            prev = s.substr(j,i);
+            temp = s.substr(j+i,i);
+            if(prev == temp){
                 count++;
             }
-            else{
-                if(count != 1) result += to_string(count);
-                result += a;
+            else {
+                if(count != 1) str += to_string(count);;
+                str += prev;
                 count = 1;
             }
-            j+=i;
+            j += i;
         }
-        if(count != 1){
-            result += to_string(count);
-            result += a;
-        }
-        else result += s.substr(j, s.length()-j);
-        v.push_back(result);
-    }
-    
-    for(int i=0; i<v.size(); i++){
-        a = v[i];
-        if(answer > a.size())
-            answer = a.size();
+        
+        if(count != 1) str += to_string(count) + prev;
+        else str += s.substr(j);
+        
+        if(answer > str.size()) answer = str.size();
     }
     return answer;
 }
