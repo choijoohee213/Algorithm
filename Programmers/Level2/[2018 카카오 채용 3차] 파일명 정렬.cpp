@@ -26,26 +26,22 @@ vector<string> solution(vector<string> files) {
     vector<FileInfo> v;
     
     for(int i=0; i<files.size(); i++){
-        string s = files[i], str = "";
+        string s = files[i], str;
         FileInfo fi;
         fi.index = i;
         for(int j=0; j<s.size(); j++){
-            if(s[j] >='0' && s[j] <= '9'){ //number何盒
-                str += s[j];
-                if((j!=s.size()-1 && (s[j+1] < '0' || s[j+1] > '9')) || j == s.size()-1){
-                    fi.number = (int)stoi(str);
-                    v.push_back(fi);
-                    break;
-                }
-            }
-            else { //head何盒
-                str += s[j];
-                if(s[j+1] >= '0' && s[j+1] <= '9'){
-                    transform(str.begin(),str.end(),str.begin(),
+            if(s[j] >='0' && s[j] <= '9'){ 
+                //head何盒
+                str = s.substr(0,j);
+                transform(str.begin(),str.end(),str.begin(),
                               [](unsigned char c){ return toupper(c); });
-                    fi.head = str;
-                    str = "";
-                }
+                fi.head = str;
+                
+                //number何盒
+                str = s.substr(j);
+                fi.number = (int)stoi(str);
+                v.push_back(fi);
+                break;
             }
         }
     }
