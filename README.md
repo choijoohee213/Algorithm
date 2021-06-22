@@ -36,18 +36,18 @@ C++
 
 ### 프로그래머스 Level2
 
-- 124나라의 숫자 ✔
-- 멀쩡한 사각형 ✔
-- 다리를 지나는 트럭 ✔
-- 삼각 달팽이 ✔
-- [2020 카카오 채용] 카카오문자열 압축 ✔
-- 가장 큰 수 ✔
-- 전화번호 목록 ✔
-- 카펫 ✔
-- 가장 큰 정사각형 찾기 ✔
-- 땅따먹기 ✔
-- N개의 최소공배수 ✔
-- 점프와 순간 이동 ✔
+- [124나라의 숫자](https://programmers.co.kr/learn/courses/30/lessons/12899) ✔
+- [멀쩡한 사각형](https://programmers.co.kr/learn/courses/30/lessons/62048) ✔
+- [다리를 지나는 트럭](https://programmers.co.kr/learn/courses/30/lessons/42583) ✔
+- [삼각 달팽이](https://programmers.co.kr/learn/courses/30/lessons/68645) ✔
+- [2020 카카오 채용: 카카오문자열 압축](https://programmers.co.kr/learn/courses/30/lessons/60057) ✔
+- [가장 큰 수](https://programmers.co.kr/learn/courses/30/lessons/42746) ✔
+- [전화번호 목록](https://programmers.co.kr/learn/courses/30/lessons/42577) ✔
+- [카펫](https://programmers.co.kr/learn/courses/30/lessons/42842) ✔
+- [가장 큰 정사각형 찾기](https://programmers.co.kr/learn/courses/30/lessons/12905) ✔
+- [땅따먹기](https://programmers.co.kr/learn/courses/30/lessons/12913) ✔
+- [N개의 최소공배수](https://programmers.co.kr/learn/courses/30/lessons/12953) ✔
+- [점프와 순간 이동](https://programmers.co.kr/learn/courses/30/lessons/12980) ✔
 - [2019 카카오 채용] 오픈채팅방 ✔
 - [2019 카카오 채용] 후보키
 - [2018 카카오 채용] 방금그곡
