@@ -48,30 +48,31 @@ C++
 - [땅따먹기](https://programmers.co.kr/learn/courses/30/lessons/12913) ✔
 - [N개의 최소공배수](https://programmers.co.kr/learn/courses/30/lessons/12953) ✔
 - [점프와 순간 이동](https://programmers.co.kr/learn/courses/30/lessons/12980) ✔
-- [2019 카카오 채용] 오픈채팅방 ✔
-- [2019 카카오 채용] 후보키
-- [2018 카카오 채용] 방금그곡
-- [2018 카카오 채용 3차] 파일명 정렬 ✔
-- [2021 카카오 채용] 순위 검색
+- [2019 카카오 채용 : 오픈채팅방](https://programmers.co.kr/learn/courses/30/lessons/42888) ✔
+- [2019 카카오 채용 : 후보키](https://programmers.co.kr/learn/courses/30/lessons/42890)
+- [2018 카카오 채용 : 방금그곡](https://programmers.co.kr/learn/courses/30/lessons/17683)
+- [2018 카카오 채용 3차 : 파일명 정렬](https://programmers.co.kr/learn/courses/30/lessons/17686) ✔
+- [2021 카카오 채용: 순위 검색](https://programmers.co.kr/learn/courses/30/lessons/72412)
 
 
 
 ### 프로그래머스 Level3
 
-- N으로 표현
-- 풍선 터트리기
-- 가장 먼 노드
-- 디스크 컨트롤러
-- 순위
-- 등굣길
+- [N으로 표현](https://programmers.co.kr/learn/courses/30/lessons/42895)
+- [풍선 터트리기](https://programmers.co.kr/learn/courses/30/lessons/68646)
+- [가장 먼 노드](https://programmers.co.kr/learn/courses/30/lessons/49189)
+- [디스크 컨트롤러](https://programmers.co.kr/learn/courses/30/lessons/42627)
+- [순위](https://programmers.co.kr/learn/courses/30/lessons/49191)
+- [등굣길](https://programmers.co.kr/learn/courses/30/lessons/42898)
 
 
 
 ### 백준
 > BFS 
-- 벽 부수고 이동하기_2206
-- 구슬 탈출2_13460
-- 아기 상어_16236
-- 숨바꼭질2_12851
-- 이모티콘_14226
-- 퍼즐_1525
+- [벽 부수고 이동하기_2206](https://www.acmicpc.net/problem/2206)
+- [구슬 탈출2_13460](https://www.acmicpc.net/problem/13460)
+- [아기 상어_16236](https://www.acmicpc.net/problem/16236)
+- [숨바꼭질2_12851](https://www.acmicpc.net/problem/12851)
+- [이모티콘_14226](https://www.acmicpc.net/problem/14226)
+- [퍼즐_1525](https://www.acmicpc.net/problem/1525)
+- [스타트 택시_19238](https://www.acmicpc.net/problem/19238) 😨
