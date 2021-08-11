@@ -84,3 +84,6 @@ C++
 - [양 구출 작전_16437](https://www.acmicpc.net/problem/16437)
 - [등수 찾기_17616](https://www.acmicpc.net/problem/17616)
 - [개미_14942](https://www.acmicpc.net/problem/14942) 😨
+
+> Graph
+- [ACM Craft_1005](https://www.acmicpc.net/problem/1005)
