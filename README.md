@@ -33,9 +33,10 @@ C++, Python
 > ✔은 다시 푼 횟수<br>
 > 😨은 통과 못한 것
 
+<br>
 
-### 프로그래머스 Level2
-
+### 프로그래머스
+> Level2
 - [124나라의 숫자](https://programmers.co.kr/learn/courses/30/lessons/12899) ✔
 - [멀쩡한 사각형](https://programmers.co.kr/learn/courses/30/lessons/62048) ✔
 - [다리를 지나는 트럭](https://programmers.co.kr/learn/courses/30/lessons/42583) ✔
@@ -55,9 +56,7 @@ C++, Python
 - [2021 카카오 채용: 순위 검색](https://programmers.co.kr/learn/courses/30/lessons/72412)
 
 
-
-### 프로그래머스 Level3
-
+> Level3
 - [N으로 표현](https://programmers.co.kr/learn/courses/30/lessons/42895)
 - [풍선 터트리기](https://programmers.co.kr/learn/courses/30/lessons/68646)
 - [가장 먼 노드](https://programmers.co.kr/learn/courses/30/lessons/49189)
@@ -66,6 +65,7 @@ C++, Python
 - [등굣길](https://programmers.co.kr/learn/courses/30/lessons/42898)
 
 
+<br>
 
 ### 백준
 > BFS 
@@ -87,6 +87,7 @@ C++, Python
 
 > Graph
 - [ACM Craft_1005](https://www.acmicpc.net/problem/1005)
+- [알고스팟_1261](https://www.acmicpc.net/problem/1261)
 
 > Recursive
 - [트리의 순회_2263](https://www.acmicpc.net/problem/2263)
