@@ -88,6 +88,7 @@ C++, Python
 > Graph
 - [ACM Craft_1005](https://www.acmicpc.net/problem/1005)
 - [알고스팟_1261](https://www.acmicpc.net/problem/1261)
+- [특정한 최단 경로_1504](https://www.acmicpc.net/problem/1504)
 
 > Recursive
 - [트리의 순회_2263](https://www.acmicpc.net/problem/2263)
