@@ -95,3 +95,6 @@ C++, Python
 
 > Recursive
 - [트리의 순회_2263](https://www.acmicpc.net/problem/2263)
+
+> Data Structure
+- [탑_2493](https://www.acmicpc.net/problem/2493)
