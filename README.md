@@ -98,3 +98,4 @@ C++, Python
 
 > Data Structure
 - [탑_2493](https://www.acmicpc.net/problem/2493)
+- [구간 합 구하기_2042](https://www.acmicpc.net/problem/2042) 😨
