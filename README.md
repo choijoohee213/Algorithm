@@ -18,7 +18,7 @@
 <br>
 
 ## 사용 언어 🔨
-C++, Python
+C++, Java, Python
 
 <br>
 
