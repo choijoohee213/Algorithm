@@ -1,9 +1,7 @@
-package com.ssafy;
-
 import java.util.*;
 import java.io.*;
 
-public class Main_bj_17478_재귀함수가뭔가요_대전_5반_최주희 {
+public class Main {
 
 	static int N;
 	
