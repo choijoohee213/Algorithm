@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class Main_bj_1992_쿼드트리_대전_5반_최주희 {
+public class Main {
 	static int n;
 	static char[][] arr;
 	static StringBuilder result = new StringBuilder();
