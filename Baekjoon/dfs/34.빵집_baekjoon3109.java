@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class Main_bj_3109_빵집_대전_5반_최주희 {
+public class Main {
 	static int r,c;
 	static char[][] map;
 	public static void main(String[] args) throws Exception {
