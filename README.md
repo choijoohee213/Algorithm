@@ -106,3 +106,6 @@ C++, Java, Python
 
 > Greedy
 - [AB 12970](https://www.acmicpc.net/problem/12970)
+
+> Implementation
+- [통나무 옮기기_1938](https://www.acmicpc.net/problem/1938)
