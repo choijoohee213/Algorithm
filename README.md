@@ -67,6 +67,7 @@ C++, Java, Python
 - [등굣길](https://programmers.co.kr/learn/courses/30/lessons/42898)
 - [2020 카카오 인턴십 : 보석 쇼핑](https://programmers.co.kr/learn/courses/30/lessons/67258)
 - [기지국 설치](https://programmers.co.kr/learn/courses/30/lessons/12979)
+- [2019 카카오 인턴십 : 징검다리 건너기](https://programmers.co.kr/learn/courses/30/lessons/64062)
 
 <br>
 
