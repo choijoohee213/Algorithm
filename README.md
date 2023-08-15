@@ -106,7 +106,7 @@ C++, Java, Python
 - [탑_2493](https://www.acmicpc.net/problem/2493)
 - [구간 합 구하기_2042](https://www.acmicpc.net/problem/2042) 😨
 - [가운데를 말해요_1655](https://www.acmicpc.net/problem/1655)
-- [히스토그램에서 가장 큰 직사각형](https://www.acmicpc.net/problem/6549)
+- [히스토그램에서 가장 큰 직사각형_6549](https://www.acmicpc.net/problem/6549)
 
 
 > Greedy
