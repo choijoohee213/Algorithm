@@ -8,15 +8,31 @@ class Main {
 
 		int h = Integer.parseInt(st.nextToken());
 		int w = Integer.parseInt(st.nextToken());
+		int endX = 0, endY = 0;
 		char[][] map = new char[w][h];
-		int[][] visited = new int[w][h];
-		Queue<int[]> q = new ArrayDeque<>();
+		int[][][] visited = new int[w][h][4];
+		for (int i = 0; i < w; i++) {
+			for (int j = 0; j < h; j++) {
+				for (int k = 0; k < 4; k++) {
+					visited[i][j][k] = -1;
+				}
+			}
+		}
+
+		Queue<int[]> q = new PriorityQueue<>((o1, o2) -> Integer.compare(o1[3], o2[3]));
+
 		for (int i = 0; i < w; i++) {
 			map[i] = br.readLine().toCharArray();
 			for (int j = 0; j < h; j++) {
 				if(q.isEmpty() && map[i][j] == 'C') {
 					q.offer(new int[]{i,j,-1,0});  //x,y,이전방향,거울 개수
-					visited[i][j] = 1;
+					visited[i][j][0] = 0;
+					visited[i][j][1] = 0;
+					visited[i][j][2] = 0;
+					visited[i][j][3] = 0;
+				} else if(!q.isEmpty() && map[i][j] == 'C') {
+					endX = i;
+					endY = j;
 				}
 			}
 		}
@@ -32,24 +48,20 @@ class Main {
 				int mirror = x[3];
 
 				if(nx<0 || nx>=w || ny<0 || ny>=h || map[nx][ny] == '*') continue;
-				if(x[2] >=0 && x[2]!=i) mirror++; //방향회전 : 이전 방향과 다르다
-				if(visited[nx][ny] == 0 && map[nx][ny] == 'C') {
+				if(x[2] >=0 && x[2] != i) {
+					mirror++; //수직 회전
+				}
+				if(nx == endX && ny == endY) {
 					result = Math.min(result, mirror);
-					continue;
 				}
-				if(visited[nx][ny] > 0) { //이미 갔던 곳이라면 거울 개수가 더 작으면 넣어줌
-					if(visited[nx][ny] >= mirror){
-						visited[nx][ny] = mirror;
-						q.offer(new int[]{nx,ny,i,mirror});
-					}
-				}
-				else {
-					visited[nx][ny] = mirror;
+
+				if(visited[nx][ny][i] == -1 || visited[nx][ny][i] > mirror) {
+					visited[nx][ny][i] = mirror;
 					q.offer(new int[]{nx,ny,i,mirror});
 				}
 			}
 		}
 		br.close();
-		System.out.print(result==Integer.MAX_VALUE?0:result);
+		System.out.print(result);
 	}
 }
